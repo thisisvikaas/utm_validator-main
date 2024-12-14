@@ -180,7 +180,7 @@ export default function Home() {
       
       setParsedParams(utmParams)
       setIdentifiedChannel(identifyChannel(utmParams))
-    } catch (error) {
+    } catch {
       setParsedParams({})
       setIdentifiedChannel('')
     }
